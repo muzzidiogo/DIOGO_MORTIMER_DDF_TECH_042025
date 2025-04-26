@@ -10,7 +10,7 @@
 
 # Item 1 - Base de Dados
 
-Para este case técnico, será utilizada a base de dados NYC Taxi and Limousine Commission (TLC) [High Volume For-Hire Vehicle Trip Records in January 2025](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). Esta base de dados inclui informações de viagens realizadas por empresas terceiras (Uber, Lyft, Juno etc). Estas informações podem ser úteis para uma empresa que deseja entrar no mercado de aplicativos de carona e deseja conhecer os padrões de viagens já existentes para se posicionar de forma estratégica.
+Para este case técnico, será utilizada a base de dados NYC Taxi and Limousine Commission (TLC) [High Volume For-Hire Vehicle Trip Records in January 2025](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). Esta base de dados inclui informações de viagens realizadas por empresas terceiras (Uber, Lyft, Juno etc) na cidade de Nova Iorque no mês de Janeiro de 2025. Estas informações podem ser úteis para uma empresa que deseja entrar no mercado de aplicativos de carona e precisa conhecer os padrões de viagens já existentes para se posicionar de forma estratégica.
 
 # Item 2 - Integração com a Dadosfera
 
