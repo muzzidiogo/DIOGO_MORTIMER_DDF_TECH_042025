@@ -2,7 +2,7 @@
 
 # To do:
 - [x] Choose a database
-- [ ] Load data on dadosfera's platform
+- [x] Load data on dadosfera's platform
 - [ ] Catalog the data dictionary (Bonus: using dadosfera's API)
 - [ ] Organize the data in a data lake
 - [ ] Make a data quality report with soda-core lib (Bonus: Define and implement a Common Data Model)
