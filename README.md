@@ -14,6 +14,8 @@ Para este case técnico, será utilizada a base de dados NYC Taxi and Limousine 
 
 # Item 2 - Integração com a Dadosfera
 
+Não foi possível fazer a conexão com a plataforma da Dadosfera devido a isntabilidades técnicas do módulo de Coleta.
+
 # Item 3 - Exploração
 ## Dicionário de Dados
 | Campo | Descrição | Tipo | Formato | Exemplo | Observações |
