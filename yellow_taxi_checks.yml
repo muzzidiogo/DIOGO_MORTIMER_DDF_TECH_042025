@@ -1,0 +1,54 @@
+checks for yellow_taxi_data:
+  # Verificações gerais
+  - row_count > 0
+  - missing_count(VendorID) = 0
+  - missing_count(tpep_pickup_datetime) = 0
+  - missing_count(tpep_dropoff_datetime) = 0
+  - invalid_count(passenger_count) = 0:
+      valid min: 0
+      valid max: 7
+  - invalid_count(trip_distance) = 0:
+      valid min: 0
+  - duplicate_count(tpep_pickup_datetime, tpep_dropoff_datetime, PULocationID, DOLocationID) = 0
+
+  # Códigos de valores válidos
+  - invalid_count(VendorID) = 0:
+      valid values: [1, 2, 6, 7]
+  - invalid_count(RatecodeID) < 10:
+      valid values: [1, 2, 3, 4, 5, 6, 99]
+  - invalid_count(store_and_fwd_flag) = 0:
+      valid values: ["Y", "N"]
+  - invalid_count(PULocationID) = 0:
+      valid min: 1
+      valid max: 263
+  - invalid_count(DOLocationID) = 0:
+      valid min: 1
+      valid max: 263
+  - invalid_count(payment_type) = 0:
+      valid values: [0, 1, 2, 3, 4, 5, 6]
+
+  # Verificações financeiras
+  - invalid_count(fare_amount) = 0:
+      valid min: 0
+  - invalid_count(extra) < 5:
+      valid min: 0
+  - invalid_count(mta_tax) < 5:
+      valid min: 0
+  - invalid_count(tip_amount) < 10:
+      valid min: 0
+  - invalid_count(tolls_amount) < 10:
+      valid min: 0
+  - invalid_count(improvement_surcharge) < 5:
+      valid min: 0
+  - invalid_count(total_amount) = 0:
+      valid min: 0
+  - invalid_count(congestion_surcharge) < 5:
+      valid min: 0
+  - invalid_count(Airport_fee) < 5:
+      valid min: 0
+  - invalid_count(cbd_congestion_fee) < 5:
+      valid min: 0
+
+  # Validação temporal
+  - invalid_count(tpep_dropoff_datetime) = 0:
+      valid min: tpep_pickup_datetime
