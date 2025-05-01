@@ -44,18 +44,25 @@ Para este case técnico, será utilizada a base de dados NYC Taxi and Limousine 
 # Item 7 - Análise dos Dados
 
 ## Análise das Categorias
-### Embarques por Região de Nova Iorque
+### Embarques e Desembarques por Região de Nova Iorque
 ![Embarques por Região de Nova Iorque](https://github.com/user-attachments/assets/99f5f161-ebc3-4457-abbc-f41fa313e041)
-### Desembarques por Região de Nova Iorque
 ![Desembarques por Região de Nova Iorque](https://github.com/user-attachments/assets/d09a75d7-63ff-4947-9d81-d91b4b4444b2)
-### Embarques por Zona de Nova Iorque
+
+A análise do total de embarques e desembarques em cada região de Nova Iorque ratifica a ideia preconcebida de que Manhattan detém a maior parte do movimento de pessoas na cidade e especifica o quão maior de fato é. Para esta análise leva a crer que esta região deve ser priorizada, se necessário em detrimento das outras, para se instalar um negócio de caronas. 
+
+### Embarques e Desembarques por Zona de Nova Iorque
 ![Embarques por Zona de Nova Iorque](https://github.com/user-attachments/assets/ca4770b4-3696-42b8-8537-4b7c333c733d)
-### Desembarques por Zona de Nova Iorque
 ![Desembarques por Zona de Nova Iorque](https://github.com/user-attachments/assets/16fa4923-7a1c-44c6-933e-c54ae6499e2e)
+
+Além de levar às mesmas conclusões das análises de demanda por região, as análises por zona trouxeram um dado importante: boa parte da demanda de transporte vem dos aeroportos, principalmente JFK e LaGuardia, localizados na região do Queens. Logo, esta informação deve ser considerada pela empresa ao distribuir sua disponibilidade, mas ainda priorizando Manhattan. 
 
 ## Análise de Série temporal
 ### Embarques por dia ao longo do ano
 ![Embarques por dia ao longo do ano](https://github.com/user-attachments/assets/b8772ef3-83fd-4218-a008-6c5121f18e4d)
+
+A série temporal de embarques ao longo do ano mostra que a demanda por caronas oscila ao longo do mês, com picos entre quintas feiras e sábados e portanto tornando esses dias mais importantes. Em contrapartida, Domingos e Segundas Feiras apresentam a menor demanda ao longo das semanas registradas.
+
 ### Média de Embarques por Hora do Dia
 ![Média de Embarques por Hora do Dia](https://github.com/user-attachments/assets/e5642dd1-767b-4699-bbd6-ebac6e06027c)
 
+Pela série temporal de média de embarques por hora, podemos observar que a demanda é mínimia durante a madrugada, e cresce a partir das 6 horas da manhã até seu pico às 19 horas, tornando o intervalo das 16 até as 21 horas o mais relevante em questão de demanda.
