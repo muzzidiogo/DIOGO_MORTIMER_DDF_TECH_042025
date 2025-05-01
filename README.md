@@ -14,7 +14,7 @@ Para este case técnico, será utilizada a base de dados NYC Taxi and Limousine 
 
 # Item 2 - Integração com a Dadosfera
 
-Não foi possível fazer a conexão com a plataforma da Dadosfera devido a isntabilidades técnicas do módulo de Coleta.
+Não foi possível fazer a conexão com a plataforma da Dadosfera devido a instabilidades técnicas do módulo de Coleta.
 
 # Item 3 - Exploração
 ## Dicionário de Dados
@@ -50,7 +50,7 @@ Não foi possível fazer a conexão com a plataforma da Dadosfera devido a isnta
 ![Embarques por Região de Nova Iorque](https://github.com/user-attachments/assets/99f5f161-ebc3-4457-abbc-f41fa313e041)
 ![Desembarques por Região de Nova Iorque](https://github.com/user-attachments/assets/d09a75d7-63ff-4947-9d81-d91b4b4444b2)
 
-A análise do total de embarques e desembarques em cada região de Nova Iorque ratifica a ideia preconcebida de que Manhattan detém a maior parte do movimento de pessoas na cidade e especifica o quão maior de fato é. Para esta análise leva a crer que esta região deve ser priorizada, se necessário em detrimento das outras, para se instalar um negócio de caronas. 
+A análise do total de embarques e desembarques em cada região de Nova Iorque ratifica a ideia preconcebida de que Manhattan detém a maior parte do movimento de pessoas na cidade e especifica o quão maior de fato é. Isto leva a crer que esta região deve ser priorizada, se necessário em detrimento das outras, para se instalar um negócio de caronas. 
 
 ### Embarques e Desembarques por Zona de Nova Iorque
 ![Embarques por Zona de Nova Iorque](https://github.com/user-attachments/assets/ca4770b4-3696-42b8-8537-4b7c333c733d)
