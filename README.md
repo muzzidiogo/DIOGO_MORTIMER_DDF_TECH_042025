@@ -3,10 +3,10 @@
 # To do:
 - [x] Choose a database
 - [x] Load data on dadosfera's platform
-- [x] Catalog the data dictionary (Bonus: using dadosfera's API)
+- [x] Catalog the data dictionary
 - [ ] Organize the data in a data lake
-- [ ] Make a data quality report with soda-core lib (Bonus: Define and implement a Common Data Model)
-- [ ] Create a dashboard with at least 5 different visualizations
+- [ ] Make a data quality report with soda-core lib
+- [x] Create a dashboard with at least 5 different visualizations
 
 # Item 1 - Base de Dados
 
@@ -42,3 +42,20 @@ Para este case técnico, será utilizada a base de dados NYC Taxi and Limousine 
 # Item 4 - Data Quality
 
 # Item 7 - Análise dos Dados
+
+## Análise das Categorias
+### Embarques por Região de Nova Iorque
+![Embarques por Região de Nova Iorque](https://github.com/user-attachments/assets/99f5f161-ebc3-4457-abbc-f41fa313e041)
+### Desembarques por Região de Nova Iorque
+![Desembarques por Região de Nova Iorque](https://github.com/user-attachments/assets/d09a75d7-63ff-4947-9d81-d91b4b4444b2)
+### Embarques por Zona de Nova Iorque
+![Embarques por Zona de Nova Iorque](https://github.com/user-attachments/assets/ca4770b4-3696-42b8-8537-4b7c333c733d)
+### Desembarques por Zona de Nova Iorque
+![Desembarques por Zona de Nova Iorque](https://github.com/user-attachments/assets/16fa4923-7a1c-44c6-933e-c54ae6499e2e)
+
+## Análise de Série temporal
+### Embarques por dia ao longo do ano
+![Embarques por dia ao longo do ano](https://github.com/user-attachments/assets/b8772ef3-83fd-4218-a008-6c5121f18e4d)
+### Média de Embarques por Hora do Dia
+![Média de Embarques por Hora do Dia](https://github.com/user-attachments/assets/e5642dd1-767b-4699-bbd6-ebac6e06027c)
+
