@@ -46,6 +46,9 @@ O dicionário abaixo foi feito enquanto o problema de integração da plataforma
 | Airport_fee | Taxa de aeroporto. | float64 | - | Ex.: 0.0 | Aplicada apenas para corridas iniciadas nos aeroportos LaGuardia e John F. Kennedy |
 | cbd_congestion_fee | Valor cobrado por corrida para viagens que entram ou circulam na Zona de Alívio de Congestionamento da MTA (área central de Manhattan). | float64 | - | Ex.: 0.75 | - |
 
+![image](https://github.com/user-attachments/assets/0ee838cb-5403-473e-b5a0-28ef2a62f205)
+
+
 # Item 4 - Data Quality
 
 # Item 7 - Análise dos Dados
