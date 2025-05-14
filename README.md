@@ -10,14 +10,19 @@
 
 # Item 1 - Base de Dados
 
-Para este case técnico, será utilizada a base de dados NYC Taxi and Limousine Commission (TLC) [Yellow Taxi Trip Records in February 2025](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). Esta base de dados inclui informações de viagens realizadas por táxis amarelos na cidade de Nova Iorque no mês de Fevereiro de 2025. Estas informações podem ser úteis para uma empresa que deseja entrar no mercado de aplicativos de carona e precisa conhecer os padrões de viagens como horários e locais de maior demanda para se posicionar de forma estratégica.
+Para este case técnico, foi utilizada a base de dados NYC Taxi and Limousine Commission (TLC) [Yellow Taxi Trip Records in February 2025](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). Esta base de dados inclui informações de viagens realizadas por táxis amarelos na cidade de Nova Iorque no mês de Fevereiro de 2025. Estas informações podem ser úteis para uma empresa que deseja se posicionar de forma estratégica e precisa conhecer padrões de viagens como horários e locais de maior demanda da cidade de Nova Iorque.
 
 # Item 2 - Integração com a Dadosfera
 
-Não foi possível fazer a conexão com a plataforma da Dadosfera devido a instabilidades técnicas do módulo de Coleta.
+A plataforma da Dadosfera apresentou um erro ao tentar integrar o arquivo parquet do dataset. e o arquivo CSV do dataset escolhido é maior que o tamanho máximo aceito. Por isso, foi necessário eliminar algumas colunas e linhas para que o arquivo ficasse num tamanho adequado. Foram excluídas linhas aleatórias para não criar viés no dataset e apenas colunas que não foram utilizadas na análise foram excluídas. o que possibilitou a utilização desse dataset reduzido sem mudanças significativas na conclusão da análise.
 
-# Item 3 - Exploração
+![image](https://github.com/user-attachments/assets/38810af7-74d7-40a2-9cc2-a61b802eb69b)
+![image](https://github.com/user-attachments/assets/8d078fca-cbfd-4148-b39f-550be5168403)
+
+# Item 3 - Explorar
 ## Dicionário de Dados
+O dicionário abaixo foi feito enquanto o problema de integração da plataforma ainda não havia sido resolvido e portanto inclui todas as colunas do dataset.
+
 | Campo | Descrição | Tipo | Formato | Exemplo | Observações |
 |-------|------------|------|---------|-------------------|-------------|
 | VendorID | Código indicando provedor TPEP de onde vem o registro. | int32 | - | Ex.: 1 | 1 = Creative Mobile Technologies, LLC<br>2 = Curb Mobility, LLC<br>6 = Myle Technologies Inc<br>7 = Helix |
